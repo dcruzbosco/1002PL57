@@ -12,4 +12,7 @@ public class HelloWorld {
 		this.address = address;
 	}
 	
+	public void sayHello() {
+		System.out.println("Hello " + name + ". Welcome to GIT.");
+	}
 }
